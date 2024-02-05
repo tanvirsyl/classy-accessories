@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/join_app_logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo"
+        >
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/register_username_input"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/join_app_logo"
+        android:background="@drawable/inputs"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:padding="18dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:hint="Your full Name"
+        android:textColorHint="@color/teal_700"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+
+
+
+
+    <EditText
+        android:id="@+id/register_phone_input"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:background="@drawable/inputs"
+        android:layout_below="@+id/register_username_input"
+        android:inputType="phone"
+        android:padding="18dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:hint="Your Phone number"
+        android:textColorHint="@color/teal_700"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+
+
+
+
+
+    <EditText
+        android:id="@+id/register_password_input"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:background="@drawable/inputs"
+        android:layout_below="@+id/register_phone_input"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:padding="18dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:hint="Password"
+        android:textColorHint="@color/teal_700"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:padding="18dp"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

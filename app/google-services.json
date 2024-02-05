@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "212979792997",
+    "project_id": "cleassyacessroies",
+    "storage_bucket": "cleassyacessroies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212979792997:android:b3a28445a44fcf88201a8c",
+        "android_client_info": {
+          "package_name": "com.example.classyaccessories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212979792997-vfj889h39h5tvav04rmqjv5nskl0ci54.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.classyaccessories",
+            "certificate_hash": "f0e4a8e648d655867101fc2648fd2e62373ecef2"
+          }
+        },
+        {
+          "client_id": "212979792997-a8guv50ak2ak1f3q3jm1lteqh19s4llq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC51rgpSrzpbREleowD15ka2p3NlygO08s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212979792997-a8guv50ak2ak1f3q3jm1lteqh19s4llq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
